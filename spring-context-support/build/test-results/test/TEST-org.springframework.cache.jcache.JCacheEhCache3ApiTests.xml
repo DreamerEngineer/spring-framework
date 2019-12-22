@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.jcache.JCacheEhCache3ApiTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:01:58" hostname="yunlongdeMacBook-Pro.local" time="0.337">
+  <properties/>
+  <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.018"/>
+  <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.067"/>
+  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.009"/>
+  <testcase name="testCacheClear()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.049"/>
+  <testcase name="testCacheRemove()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.01"/>
+  <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.022"/>
+  <testcase name="testCacheName()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.008"/>
+  <testcase name="testCachePut()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.027"/>
+  <testcase name="testCacheGetCallable()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.031"/>
+  <testcase name="testNativeCache()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.024"/>
+  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.021"/>
+  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.007"/>
+  <testcase name="testCachePutNullValueAllowNullFalse()" classname="org.springframework.cache.jcache.JCacheEhCache3ApiTests" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

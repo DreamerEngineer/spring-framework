@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:58:14" hostname="bamboo-21" time="0.108">
+  <properties/>
+  <testcase name="testSunnyDayPathLogsCorrectlyWithPrettyMuchAllPlaceholdersMatching()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.056"/>
+  <testcase name="testSetEmptyExceptionMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.018"/>
+  <testcase name="testSetExitMessageWithExceptionPlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
+  <testcase name="testSetEmptyExitMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.002"/>
+  <testcase name="testSetEnterMessageWithInvocationTimePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
+  <testcase name="testSetExceptionMethodWithReturnValuePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.002"/>
+  <testcase name="testSetEnterMessageWithReturnValuePlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.0"/>
+  <testcase name="testSetEmptyEnterMessage()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.001"/>
+  <testcase name="testExceptionPathLogsCorrectly()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.009"/>
+  <testcase name="testSetEnterMessageWithExceptionPlaceholder()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.005"/>
+  <testcase name="testSunnyDayPathLogsCorrectly()" classname="org.springframework.aop.interceptor.CustomizableTraceInterceptorTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

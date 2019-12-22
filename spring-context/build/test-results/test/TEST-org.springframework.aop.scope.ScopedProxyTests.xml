@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.scope.ScopedProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-19T13:00:10" hostname="bamboo-21" time="0.104">
+  <properties/>
+  <testcase name="testSimpleProxy()" classname="org.springframework.aop.scope.ScopedProxyTests" time="0.027"/>
+  <testcase name="testJdkScopedProxy()" classname="org.springframework.aop.scope.ScopedProxyTests" time="0.009"/>
+  <testcase name="testProxyAssignable()" classname="org.springframework.aop.scope.ScopedProxyTests" time="0.022"/>
+  <testcase name="testCglibScopedProxy()" classname="org.springframework.aop.scope.ScopedProxyTests" time="0.035"/>
+  <testcase name="testScopedOverride()" classname="org.springframework.aop.scope.ScopedProxyTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

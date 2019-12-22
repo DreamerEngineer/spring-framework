@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:04:57" hostname="yunlongdeMacBook-Pro.local" time="1.457">
+  <properties/>
+  <testcase name="clientOutboundChannelUsedByAnnotatedMethod()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.263"/>
+  <testcase name="dotSeparatorWithBrokerDotConvention()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.062"/>
+  <testcase name="brokerChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.063"/>
+  <testcase name="simpValidatorCustom()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.009"/>
+  <testcase name="userBroadcastsDisabledWithSimpleBroker()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.029"/>
+  <testcase name="clientOutboundChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.054"/>
+  <testcase name="dotSeparatorWithBrokerSlashConvention()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.05"/>
+  <testcase name="configureMessageConvertersDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.002"/>
+  <testcase name="brokerChannelUsedByAnnotatedMethod()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.027"/>
+  <testcase name="clientInboundChannelWithBrokerRelay()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.569"/>
+  <testcase name="brokerChannel()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.026"/>
+  <testcase name="simpValidatorDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customPathMatcher()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.028"/>
+  <testcase name="clientInboundChannelCustomized()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.02"/>
+  <testcase name="simpValidatorInjected()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.022"/>
+  <testcase name="configureMessageConvertersCustomAndDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.001"/>
+  <testcase name="simpValidatorMvc()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customCacheLimit()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.014"/>
+  <testcase name="brokerChannelWithBrokerRelay()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.039"/>
+  <testcase name="threadPoolSizeDefault()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.038"/>
+  <testcase name="clientInboundChannel()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.021"/>
+  <testcase name="clientOutboundChannelUsedBySimpleBroker()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.015"/>
+  <testcase name="customUserRegistryOrder()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.02"/>
+  <testcase name="configureMessageConvertersCustom()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.0"/>
+  <testcase name="customArgumentAndReturnValueTypes()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.018"/>
+  <testcase name="userBroadcasts()" classname="org.springframework.messaging.simp.config.MessageBrokerConfigurationTests" time="0.055"/>
+  <system-out><![CDATA[23:04:58.872 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.<init>(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:04:58.873 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.<init>(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

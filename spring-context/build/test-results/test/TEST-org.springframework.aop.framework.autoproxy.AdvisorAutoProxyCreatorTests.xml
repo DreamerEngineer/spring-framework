@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-12-19T13:00:15" hostname="bamboo-21" time="0.099">
+  <properties/>
+  <testcase name="testCustomTargetSourceNoMatch()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.011"/>
+  <testcase name="testLazyInitTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.004"/>
+  <testcase name="testQuickTargetSourceCreator()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.023"/>
+  <testcase name="testCustomPrototypeTargetSource()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.005"/>
+  <testcase name="testCommonInterceptorAndAdvisor()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.018"/>
+  <testcase name="testWithOptimizedProxy()" classname="org.springframework.aop.framework.autoproxy.AdvisorAutoProxyCreatorTests" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:58:31" hostname="bamboo-21" time="0.166">
+  <properties/>
+  <testcase name="simpleRef()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.033"/>
+  <testcase name="simpleValue()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.018"/>
+  <testcase name="typeIndexedRef()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.019"/>
+  <testcase name="constructorWithNameEndingInRef()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.004"/>
+  <testcase name="ambiguousConstructor()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.024"/>
+  <testcase name="typeIndexedValue()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.015"/>
+  <testcase name="nameValue()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.012"/>
+  <testcase name="nameRef()" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

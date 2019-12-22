@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - StompBrokerRelayMessageHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>StompBrokerRelayMessageHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.messaging.simp.stomp.html">org.springframework.messaging.simp.stomp</a> &gt; StompBrokerRelayMessageHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">31.472s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">brokerAvailabilityEventWhenStopped()</td>
+<td class="success">4.095s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">brokerBecomingUnavailableTriggersErrorFrame()</td>
+<td class="success">4.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">disconnectWithReceipt()</td>
+<td class="success">4.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">messageDeliveryExceptionIfSystemSessionForwardFails()</td>
+<td class="success">4.185s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">publishSubscribe()</td>
+<td class="success">4.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">relayReconnectsIfBrokerComesBackUp()</td>
+<td class="success">11.025s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:05:02.335 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:02.340 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:2) is starting
+23:05:02.348 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:63978
+23:05:02.349 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63978 Started
+23:05:02.349 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:2) started
+23:05:02.349 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:02.380 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:2) is shutting down
+23:05:04.378 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63978 Stopped
+23:05:04.411 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:2) uptime 2.055 seconds
+23:05:04.411 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:2) is shutdown
+23:05:06.510 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:06.510 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:3) is starting
+23:05:06.511 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64311
+23:05:06.511 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64311 Started
+23:05:06.512 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:3) started
+23:05:06.512 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:08.623 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:3) is shutting down
+23:05:08.878 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:08.878 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:08.991 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:10.536 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64311 Stopped
+23:05:10.537 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:3) uptime 4.027 seconds
+23:05:10.538 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:3) is shutdown
+23:05:10.540 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:10.540 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:4) is starting
+23:05:10.541 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64605
+23:05:10.541 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64605 Started
+23:05:10.541 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:4) started
+23:05:10.542 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:10.555 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:4) is shutting down
+23:05:12.556 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64605 Stopped
+23:05:12.557 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:4) uptime 2.017 seconds
+23:05:12.557 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:4) is shutdown
+23:05:14.635 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:14.636 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:5) is starting
+23:05:14.636 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:63028
+23:05:14.637 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63028 Started
+23:05:14.637 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:5) started
+23:05:14.637 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:14.659 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:5) is shutting down
+23:05:16.665 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63028 Stopped
+23:05:16.665 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:5) uptime 2.030 seconds
+23:05:16.665 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:5) is shutdown
+23:05:16.666 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:16.667 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:6) is starting
+23:05:16.667 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:63028
+23:05:16.668 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63028 Started
+23:05:16.668 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:6) started
+23:05:16.668 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:18.882 [MessageBroker-2] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:18.882 [MessageBroker-2] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:18.996 [MessageBroker-2] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:23.816 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:6) is shutting down
+23:05:25.658 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63028 Stopped
+23:05:25.659 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:6) uptime 8.992 seconds
+23:05:25.659 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:6) is shutdown
+23:05:25.661 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:25.662 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:7) is starting
+23:05:25.662 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65112
+23:05:25.662 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65112 Started
+23:05:25.663 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:7) started
+23:05:25.663 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:25.680 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:7) is shutting down
+23:05:27.684 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65112 Stopped
+23:05:27.684 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:7) uptime 2.023 seconds
+23:05:27.685 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:7) is shutdown
+23:05:28.886 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:28.886 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:29.002 [MessageBroker-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: null
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry$UserRegistrySnapshot.&lt;init&gt;(MultiServerUserRegistry.java:212) ~[main/:?]
+	at org.springframework.messaging.simp.user.MultiServerUserRegistry.getLocalRegistryDto(MultiServerUserRegistry.java:164) ~[main/:?]
+	at org.springframework.messaging.simp.user.UserRegistryMessageHandler$UserRegistryTask.run(UserRegistryMessageHandler.java:141) ~[main/:?]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.2.3.BUILD-SNAPSHOT.jar:5.2.3.BUILD-SNAPSHOT]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+23:05:29.770 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+23:05:29.771 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:8) is starting
+23:05:29.771 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64221
+23:05:29.771 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64221 Started
+23:05:29.772 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:8) started
+23:05:29.772 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+23:05:31.898 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:8) is shutting down
+23:05:33.794 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64221 Stopped
+23:05:33.794 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:8) uptime 4.024 seconds
+23:05:33.795 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:yunlongdeMacBook-Pro.local-56958-1576940699679-0:8) is shutdown
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.4</a> at 2019-12-21 23:05:43</p>
+</div>
+</div>
+</body>
+</html>

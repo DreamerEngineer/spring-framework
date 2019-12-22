@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jms.config.JmsNamespaceHandlerTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:04:41" hostname="yunlongdeMacBook-Pro.local" time="0.761">
+  <properties/>
+  <testcase name="testJcaContainerConfiguration()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.271"/>
+  <testcase name="testRecoveryInterval()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.062"/>
+  <testcase name="testSourceExtraction()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.053"/>
+  <testcase name="testListeners()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.05"/>
+  <testcase name="testResponseDestination()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.045"/>
+  <testcase name="testJmsContainerFactoryConfiguration()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.043"/>
+  <testcase name="testComponentRegistration()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.038"/>
+  <testcase name="testConcurrency()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.042"/>
+  <testcase name="testJcaContainerFactoryConfiguration()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.033"/>
+  <testcase name="testErrorHandlers()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.036"/>
+  <testcase name="testContainerConfiguration()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.028"/>
+  <testcase name="testPhases()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.027"/>
+  <testcase name="testBeansCreated()" classname="org.springframework.jms.config.JmsNamespaceHandlerTests" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

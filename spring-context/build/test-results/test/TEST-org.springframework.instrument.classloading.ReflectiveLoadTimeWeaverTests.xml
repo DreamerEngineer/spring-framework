@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:59:00" hostname="bamboo-21" time="0.141">
+  <properties/>
+  <testcase name="testCtorWithNullClassLoader()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.127"/>
+  <testcase name="testCtorWithClassLoaderThatDoesNotExposeAnAddTransformerMethod()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.001"/>
+  <testcase name="testCtorWithClassLoaderThatDoesNotExposeAGetThrowawayClassLoaderMethodIsOkay()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.004"/>
+  <testcase name="testAddTransformerWithNullTransformer()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.001"/>
+  <testcase name="testGetThrowawayClassLoaderWithClassLoaderThatDoesNotExposeAGetThrowawayClassLoaderMethodYieldsFallbackClassLoader()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.001"/>
+  <testcase name="testGetThrowawayClassLoaderWithTotallyCompliantClassLoader()" classname="org.springframework.instrument.classloading.ReflectiveLoadTimeWeaverTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

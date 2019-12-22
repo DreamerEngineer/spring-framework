@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:02:04" hostname="yunlongdeMacBook-Pro.local" time="1.091">
+  <properties/>
+  <testcase name="testValidationWithOptionalField()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.04"/>
+  <testcase name="testSpringValidationFieldType()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.061"/>
+  <testcase name="testSpringValidationWithErrorInListElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.051"/>
+  <testcase name="testSpringValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.05"/>
+  <testcase name="testInnerBeanValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.015"/>
+  <testcase name="testSpringValidationWithErrorInSetElement()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.109"/>
+  <testcase name="testSpringValidationWithAutowiredValidator()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.2"/>
+  <testcase name="testSimpleValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.09"/>
+  <testcase name="testListValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.045"/>
+  <testcase name="testSimpleValidationWithClassLevel()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.149"/>
+  <testcase name="testSimpleValidationWithCustomProvider()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.137"/>
+  <testcase name="testSpringValidation()" classname="org.springframework.validation.beanvalidation2.ValidatorFactoryTests" time="0.137"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

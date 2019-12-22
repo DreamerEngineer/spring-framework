@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:59:02" hostname="bamboo-21" time="0.081">
+  <properties/>
+  <testcase name="getAnnotationAttributes()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.048"/>
+  <testcase name="isAnnotated()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.002"/>
+  <testcase name="hasMetaAnnotation()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getMetaAnnotationTypes()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.006"/>
+  <testcase name="hasAnnotation()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.008"/>
+  <testcase name="getAllAnnotationAttributes()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.003"/>
+  <testcase name="getAnnotationTypes()" classname="org.springframework.core.type.InheritedAnnotationsAnnotationMetadataTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

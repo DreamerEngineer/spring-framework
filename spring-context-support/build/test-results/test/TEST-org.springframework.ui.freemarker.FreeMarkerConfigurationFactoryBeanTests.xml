@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:01:37" hostname="yunlongdeMacBook-Pro.local" time="1.937">
+  <properties/>
+  <testcase name="freeMarkerConfigurationFactoryBeanWithResourceLoaderPath()" classname="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBeanTests" time="0.696"/>
+  <testcase name="freeMarkerConfigurationAsBean()" classname="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBeanTests" time="0.71"/>
+  <testcase name="freeMarkerConfigurationFactoryBeanWithConfigLocation()" classname="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBeanTests" time="0.083"/>
+  <testcase name="freeMarkerConfigurationFactoryBeanWithNonFileResourceLoaderPath()" classname="org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBeanTests" time="0.444"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

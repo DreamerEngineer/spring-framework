@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:59:59" hostname="bamboo-21" time="2.522">
+  <properties/>
+  <testcase name="testSetReadOnlyAttribute()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.153"/>
+  <testcase name="testInvokeUnexposedMethodWithException()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.134"/>
+  <testcase name="testSetAttributeValue()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.138"/>
+  <testcase name="testTestLazyConnectionToRemote()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="1.034"/>
+  <testcase name="testDifferentProxiesSameClass()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.113"/>
+  <testcase name="testSetAttributeValueWithIOException()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.138"/>
+  <testcase name="testGetAttributeValue()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.135"/>
+  <testcase name="testInvokeNoArgs()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.149"/>
+  <testcase name="testProxyClassIsDifferent()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.106"/>
+  <testcase name="testInvokeArgs()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.149"/>
+  <testcase name="testSetAttributeValueWithCheckedException()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.136"/>
+  <testcase name="testSetAttributeValueWithRuntimeException()" classname="org.springframework.jmx.access.RemoteMBeanClientInterceptorTests" time="0.133"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dez 19, 2019 12:59:59 PM ClientCommunicatorAdmin restart
+WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+Dez 19, 2019 1:00:00 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:577)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:162)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:260)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:231)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:839)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:133)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:34)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:622)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:528)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:208)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:59)
+
+Dez 19, 2019 1:00:01 PM ClientCommunicatorAdmin restart
+WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+]]></system-err>
+</testsuite>

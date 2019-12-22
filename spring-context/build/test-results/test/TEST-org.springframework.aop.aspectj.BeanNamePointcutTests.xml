@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.BeanNamePointcutTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-12-19T13:00:13" hostname="bamboo-21" time="0.202">
+  <properties/>
+  <testcase name="testPointcutAdvisorCombination()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.054"/>
+  <testcase name="testMatchingBeanName()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.036"/>
+  <testcase name="testMatchingFactoryBeanItself()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.03"/>
+  <testcase name="testMatchingFactoryBeanObject()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.032"/>
+  <testcase name="testNonMatchingNestedBeanName()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.021"/>
+  <testcase name="testNonMatchingBeanName()" classname="org.springframework.aop.aspectj.BeanNamePointcutTests" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

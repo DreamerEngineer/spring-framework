@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.SingleColumnRowMapperTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:02:02" hostname="yunlongdeMacBook-Pro.local" time="0.095">
+  <properties/>
+  <testcase name="useCustomConversionService()" classname="org.springframework.jdbc.core.SingleColumnRowMapperTests" time="0.074"/>
+  <testcase name="doesNotUseConversionService()" classname="org.springframework.jdbc.core.SingleColumnRowMapperTests" time="0.002"/>
+  <testcase name="useDefaultConversionService()" classname="org.springframework.jdbc.core.SingleColumnRowMapperTests" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

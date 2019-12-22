@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-12-21T15:02:02" hostname="yunlongdeMacBook-Pro.local" time="1.301">
+  <properties/>
+  <testcase name="testSizeConstraintSatisfied()" classname="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" time="1.007"/>
+  <testcase name="testNotNullConstraintAfterInitialization()" classname="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" time="0.028"/>
+  <testcase name="testNotNullConstraintSatisfied()" classname="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" time="0.061"/>
+  <testcase name="testSizeConstraint()" classname="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" time="0.157"/>
+  <testcase name="testNotNullConstraint()" classname="org.springframework.validation.beanvalidation2.BeanValidationPostProcessorTests" time="0.032"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

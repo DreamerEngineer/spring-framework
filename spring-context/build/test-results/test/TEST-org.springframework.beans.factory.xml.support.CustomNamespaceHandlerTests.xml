@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-12-19T12:59:02" hostname="bamboo-21" time="0.511">
+  <properties/>
+  <testcase name="testDecorationViaAttribute()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.136"/>
+  <testcase name="testCustomElementNestedWithinUtilMap()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.058"/>
+  <testcase name="testCustomElementNestedWithinUtilSet()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.045"/>
+  <testcase name="testSimpleDecorator()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.025"/>
+  <testcase name="testCustomElementNestedWithinUtilList()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.072"/>
+  <testcase name="testProxyingDecorator()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.075"/>
+  <testcase name="testProxyingDecoratorNoInstance()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.021"/>
+  <testcase name="testSimpleParser()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.029"/>
+  <testcase name="testChainedDecorators()" classname="org.springframework.beans.factory.xml.support.CustomNamespaceHandlerTests" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
